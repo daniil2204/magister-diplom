@@ -1,0 +1,97 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 1.214,
+  "error": null,
+  "targets": [
+    {
+      "class": "AC",
+      "swc": "SC01",
+      "entry_point": "Proxy.transferOwner(address)",
+      "function": "Proxy.transferOwner(address)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 11,
+      "R": 0.7,
+      "P": 0.494975,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.0,
+      "time_to_verdict": 0.0,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "DepositProxy.Vault()",
+      "function": "DepositProxy.deposit()",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 33,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.354,
+      "time_to_verdict": 0.354,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "DepositProxy.deposit()",
+      "function": "DepositProxy.deposit()",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 33,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.221,
+      "time_to_verdict": 0.221,
+      "reason": "storage_dependent",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC01",
+      "function": "Proxy.transferOwner(address)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "DepositProxy.deposit()",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

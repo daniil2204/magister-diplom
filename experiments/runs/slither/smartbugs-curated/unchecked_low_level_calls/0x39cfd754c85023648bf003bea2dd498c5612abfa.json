@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.01,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Token.WithdrawToken(address,uint256,address)",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Unhandled-Exceptions\\buggy_33.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.028,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "Staking.redeem()",
+      "line": null,
+      "detector": "reentrancy-no-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.my_func_uncheck36(address)",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.withdrawLeftOver_unchk45()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Owned.bug_unchk3(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.unhandledsend_unchk26(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.unhandledsend_unchk38(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.my_func_unchk35(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Token.unhandledsend_unchk14(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.cash_unchk46(uint256,uint256,address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.withdrawLeftOver_unchk33()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.bug_unchk27(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Token.my_func_unchk23(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.sendToWinner_unchk32()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.sendToWinner_unchk8()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Owned.withdrawLeftOver_unchk9()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.sendToWinner_unchk44()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.sendToWinner_unchk20()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Staking.bug_unchk39(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    }
+  ]
+}

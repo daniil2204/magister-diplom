@@ -1,0 +1,191 @@
+{
+  "contract": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Unhandled-Exceptions\\buggy_49.sol",
+  "solc_version": "0.5.17",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 1.539,
+  "error": null,
+  "targets": [
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "TAMC.sendToWinner_unchk44()",
+      "function": "TAMC.sendToWinner_unchk44()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 80,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.031,
+      "time_to_verdict": 0.031,
+      "reason": null,
+      "counterexample": {
+        "function": "TAMC.sendToWinner_unchk44()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "TAMC.sendToWinner_unchk8()",
+      "function": "TAMC.sendToWinner_unchk8()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 15,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.026,
+      "time_to_verdict": 0.026,
+      "reason": null,
+      "counterexample": {
+        "function": "TAMC.sendToWinner_unchk8()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TAMC.transfer(address,uint256)",
+      "function": "TAMC.transfer(address,uint256)",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 56,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TAMC.transfer(address,uint256)",
+      "function": "TAMC.transfer(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 57,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.382,
+      "time_to_verdict": 0.382,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TAMC.transferFrom(address,address,uint256)",
+      "function": "TAMC.transferFrom(address,address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 102,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.003,
+      "time_to_verdict": 0.003,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TAMC.transferFrom(address,address,uint256)",
+      "function": "TAMC.transferFrom(address,address,uint256)",
+      "node_id": 4,
+      "op_index": 1,
+      "line": 103,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.564,
+      "time_to_verdict": 0.564,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TAMC.transferFrom(address,address,uint256)",
+      "function": "TAMC.transferFrom(address,address,uint256)",
+      "node_id": 5,
+      "op_index": 2,
+      "line": 104,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.005,
+      "time_to_verdict": 0.005,
+      "reason": null,
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "TAMC.sendToWinner_unchk44()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "TAMC.sendToWinner_unchk8()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "TAMC.transfer(address,uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "TAMC.transferFrom(address,address,uint256)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

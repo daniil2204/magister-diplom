@@ -1,0 +1,9 @@
+{
+  "tool": "mythril",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Unchecked-Send\\buggy_48.sol",
+  "error": "myth is not installed",
+  "findings": [],
+  "elapsed": 0.0,
+  "timed_out": false,
+  "solc_version": null
+}

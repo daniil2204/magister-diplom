@@ -1,0 +1,189 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M3",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 5.074,
+  "error": null,
+  "targets": [
+    {
+      "class": "AC",
+      "swc": "SC01",
+      "entry_point": "Ownable.changeOwner(address)",
+      "function": "Ownable.changeOwner(address)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 18,
+      "R": 0.7,
+      "P": 0.494975,
+      "b": 1,
+      "budget": 56.383,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.0,
+      "time_to_verdict": 0.41,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TokenBank.Deposit()",
+      "function": "TokenBank.Deposit()",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 71,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 51.55,
+      "verdict": "UNKNOWN",
+      "elapsed": 2.354,
+      "time_to_verdict": 2.764,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TokenBank.fallback()",
+      "function": "TokenBank.Deposit()",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 71,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 51.55,
+      "verdict": "UNKNOWN",
+      "elapsed": 2.308,
+      "time_to_verdict": 5.071,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "TokenBank.WithdrawToHolder(address,uint256)",
+      "function": "TokenBank.WithdrawToHolder(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 96,
+      "R": 0.8,
+      "P": 0.4,
+      "b": 3,
+      "budget": 45.565,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.0,
+      "time_to_verdict": 5.072,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "AC",
+      "swc": "SC01",
+      "entry_point": "Ownable.confirmOwner()",
+      "function": "Ownable.confirmOwner()",
+      "node_id": 2,
+      "op_index": 0,
+      "line": 26,
+      "R": 0.5,
+      "P": 0.353553,
+      "b": 1,
+      "budget": 40.274,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 5.073,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "TokenBank.WithdrawToHolder(address,uint256)",
+      "function": "TokenBank.WithdrawToHolder(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 96,
+      "R": 0.48,
+      "P": 0.24,
+      "b": 3,
+      "budget": 27.339,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.0,
+      "time_to_verdict": 5.074,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "TokenBank.WithdrawToHolder(address,uint256)",
+      "function": "TokenBank.WithdrawToHolder(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 96,
+      "R": 0.48,
+      "P": 0.24,
+      "b": 3,
+      "budget": 27.339,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.0,
+      "time_to_verdict": 5.074,
+      "reason": "unsupported_op",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC01",
+      "function": "Ownable.changeOwner(address)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC01",
+      "function": "Ownable.confirmOwner()",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC06",
+      "function": "TokenBank.WithdrawToHolder(address,uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC08",
+      "function": "TokenBank.WithdrawToHolder(address,uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "TokenBank.Deposit()",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "TokenBank.WithdrawToHolder(address,uint256)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

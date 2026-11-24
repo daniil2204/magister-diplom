@@ -1,0 +1,134 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 4.067,
+  "error": null,
+  "targets": [
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "PrivateBank.CashOut(uint256)",
+      "function": "PrivateBank.CashOut(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 40,
+      "R": 1.0,
+      "P": 0.57735,
+      "b": 2,
+      "budget": 99.212,
+      "verdict": "CONFIRMED",
+      "elapsed": 1.452,
+      "time_to_verdict": 1.884,
+      "reason": null,
+      "counterexample": {
+        "function": "PrivateBank.CashOut(uint256)",
+        "arguments": {
+          "_am": "0"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "PrivateBank.CashOut(uint256)"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "PrivateBank.Deposit()",
+      "function": "PrivateBank.Deposit()",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 28,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 77.766,
+      "verdict": "UNKNOWN",
+      "elapsed": 2.179,
+      "time_to_verdict": 4.064,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "PrivateBank.CashOut(uint256)",
+      "function": "PrivateBank.CashOut(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 40,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 63.495,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 4.066,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "PrivateBank.CashOut(uint256)",
+      "function": "PrivateBank.CashOut(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 40,
+      "R": 0.6,
+      "P": 0.34641,
+      "b": 2,
+      "budget": 59.527,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 4.067,
+      "reason": null,
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "PrivateBank.CashOut(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC08",
+      "function": "PrivateBank.CashOut(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "PrivateBank.CashOut(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC09",
+      "function": "PrivateBank.Deposit()",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

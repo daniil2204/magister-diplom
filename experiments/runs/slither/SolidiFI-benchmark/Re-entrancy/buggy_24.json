@@ -1,0 +1,80 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Re-entrancy\\buggy_24.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.036,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.bug_re_ent13()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdrawFunds_re_ent17(uint256)",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdrawFunds_re_ent3(uint256)",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.buyTicket_re_ent9()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdrawBalance_re_ent40()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdrawBalance_re_ent33()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdraw_balances_re_ent21()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdraw_balances_re_ent1()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdrawBalance_re_ent26()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "FomoFeast.withdraw_balances_re_ent8()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\wallet_04_confused_sign.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M3",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.977,
+  "error": null,
+  "targets": [
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "Wallet.deposit()",
+      "function": "Wallet.deposit()",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 24,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 124.264,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.195,
+      "time_to_verdict": 0.672,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "Wallet.deposit()",
+      "function": "Wallet.deposit()",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 25,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 87.868,
+      "verdict": "REFUTED",
+      "elapsed": 0.079,
+      "time_to_verdict": 0.751,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "Wallet.withdraw(uint256)",
+      "function": "Wallet.withdraw(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 32,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 87.868,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.226,
+      "time_to_verdict": 0.977,
+      "reason": null,
+      "counterexample": {
+        "function": "Wallet.withdraw(uint256)",
+        "arguments": {
+          "amount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "1461501637330902918203684832716283019655932542975",
+        "value": "0"
+      }
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC09",
+      "function": "Wallet.deposit()",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "Wallet.withdraw(uint256)",
+      "verdict": "CONFIRMED"
+    }
+  ]
+}

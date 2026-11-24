@@ -1,0 +1,152 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M4",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 5.878,
+  "error": null,
+  "targets": [
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "DEP_BANK.Collect(uint256)",
+      "function": "DEP_BANK.Collect(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 56,
+      "R": 1.0,
+      "P": 0.57735,
+      "b": 2,
+      "budget": 67.309,
+      "verdict": "CONFIRMED",
+      "elapsed": 1.335,
+      "time_to_verdict": 1.724,
+      "reason": null,
+      "counterexample": {
+        "function": "DEP_BANK.Collect(uint256)",
+        "arguments": {
+          "_am": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "DEP_BANK.Collect(uint256)"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "DEP_BANK.Deposit()",
+      "function": "DEP_BANK.Deposit()",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 43,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 74.613,
+      "verdict": "UNKNOWN",
+      "elapsed": 2.084,
+      "time_to_verdict": 3.808,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "DEP_BANK.Collect(uint256)",
+      "function": "DEP_BANK.Collect(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 56,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 43.078,
+      "verdict": "REFUTED",
+      "elapsed": 0.003,
+      "time_to_verdict": 3.81,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "DEP_BANK.Collect(uint256)",
+      "function": "DEP_BANK.Collect(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 56,
+      "R": 0.6,
+      "P": 0.34641,
+      "b": 2,
+      "budget": 40.386,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 3.812,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "DEP_BANK.fallback()",
+      "function": "DEP_BANK.Deposit()",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 43,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 74.613,
+      "verdict": "UNKNOWN",
+      "elapsed": 2.065,
+      "time_to_verdict": 5.878,
+      "reason": "storage_dependent",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "DEP_BANK.Collect(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC08",
+      "function": "DEP_BANK.Collect(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "DEP_BANK.Collect(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC09",
+      "function": "DEP_BANK.Deposit()",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

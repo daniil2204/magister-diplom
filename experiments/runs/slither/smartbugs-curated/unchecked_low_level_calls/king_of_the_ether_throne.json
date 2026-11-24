@@ -1,0 +1,38 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\king_of_the_ether_throne.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.011,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "KingOfTheEtherThrone.sweepCommission(uint256)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "KingOfTheEtherThrone.claimThrone(string)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "KingOfTheEtherThrone.claimThrone(string)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "KingOfTheEtherThrone.claimThrone(string)",
+      "line": null,
+      "detector": "unchecked-send"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "mythril",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+  "error": "myth is not installed",
+  "findings": [],
+  "elapsed": 0.0,
+  "timed_out": false,
+  "solc_version": null
+}

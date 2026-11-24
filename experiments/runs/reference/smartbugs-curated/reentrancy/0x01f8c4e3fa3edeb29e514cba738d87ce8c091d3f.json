@@ -1,0 +1,152 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 1.065,
+  "error": null,
+  "targets": [
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "PERSONAL_BANK.Collect(uint256)",
+      "function": "PERSONAL_BANK.Collect(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 56,
+      "R": 1.0,
+      "P": 0.57735,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.05,
+      "time_to_verdict": 0.05,
+      "reason": null,
+      "counterexample": {
+        "function": "PERSONAL_BANK.Collect(uint256)",
+        "arguments": {
+          "_am": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "1435659307562701110477868503660468379658255925433",
+        "value": "0",
+        "reentry_function": "PERSONAL_BANK.Collect(uint256)"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "PERSONAL_BANK.Collect(uint256)",
+      "function": "PERSONAL_BANK.Collect(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 56,
+      "R": 0.6,
+      "P": 0.34641,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "PERSONAL_BANK.Collect(uint256)",
+      "function": "PERSONAL_BANK.Collect(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 56,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.003,
+      "time_to_verdict": 0.003,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "PERSONAL_BANK.Deposit()",
+      "function": "PERSONAL_BANK.Deposit()",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 43,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.204,
+      "time_to_verdict": 0.204,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "PERSONAL_BANK.fallback()",
+      "function": "PERSONAL_BANK.Deposit()",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 43,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.183,
+      "time_to_verdict": 0.183,
+      "reason": "storage_dependent",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "PERSONAL_BANK.Collect(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC08",
+      "function": "PERSONAL_BANK.Collect(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "PERSONAL_BANK.Collect(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC09",
+      "function": "PERSONAL_BANK.Deposit()",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

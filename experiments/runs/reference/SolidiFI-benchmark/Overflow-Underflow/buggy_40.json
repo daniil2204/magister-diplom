@@ -1,0 +1,538 @@
+{
+  "contract": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Overflow-Underflow\\buggy_40.sol",
+  "solc_version": "0.5.17",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 138.661,
+  "error": null,
+  "targets": [
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.increaseAllowance(address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.72,
+      "P": 0.72,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.001,
+      "time_to_verdict": 0.001,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.increaseLockTime_intou17(uint256)",
+      "function": "ERC20.increaseLockTime_intou17(uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 219,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.156,
+      "time_to_verdict": 10.156,
+      "reason": "solver_unknown",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.increaseLockTime_intou37(uint256)",
+      "function": "ERC20.increaseLockTime_intou37(uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 231,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.166,
+      "time_to_verdict": 10.166,
+      "reason": "solver_unknown",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer(address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.8,
+      "P": 0.4,
+      "b": 3,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transferFrom(address,address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.8,
+      "P": 0.4,
+      "b": 3,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou14(address,uint256)",
+      "function": "ERC20.transfer_intou14(address,uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 384,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 5.523,
+      "time_to_verdict": 5.523,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou14(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou14(address,uint256)",
+      "function": "ERC20.transfer_intou14(address,uint256)",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 385,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 5.672,
+      "time_to_verdict": 5.672,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou14(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou14(address,uint256)",
+      "function": "ERC20.transfer_intou14(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 386,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 9.668,
+      "time_to_verdict": 9.668,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou26(address,uint256)",
+      "function": "ERC20.transfer_intou26(address,uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 255,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 5.257,
+      "time_to_verdict": 5.257,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou26(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou26(address,uint256)",
+      "function": "ERC20.transfer_intou26(address,uint256)",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 256,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 5.526,
+      "time_to_verdict": 5.526,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou26(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou26(address,uint256)",
+      "function": "ERC20.transfer_intou26(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 257,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.312,
+      "time_to_verdict": 10.312,
+      "reason": "solver_unknown",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou30(address,uint256)",
+      "function": "ERC20.transfer_intou30(address,uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 415,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 5.798,
+      "time_to_verdict": 5.798,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou30(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou30(address,uint256)",
+      "function": "ERC20.transfer_intou30(address,uint256)",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 416,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 1.642,
+      "time_to_verdict": 1.642,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou30(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou30(address,uint256)",
+      "function": "ERC20.transfer_intou30(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 417,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.15,
+      "time_to_verdict": 10.15,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou38(address,uint256)",
+      "function": "ERC20.transfer_intou38(address,uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 298,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 4.656,
+      "time_to_verdict": 4.656,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou38(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou38(address,uint256)",
+      "function": "ERC20.transfer_intou38(address,uint256)",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 299,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 4.109,
+      "time_to_verdict": 4.109,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.transfer_intou38(address,uint256)",
+        "arguments": {
+          "_to": "0",
+          "_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer_intou38(address,uint256)",
+      "function": "ERC20.transfer_intou38(address,uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 300,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.284,
+      "time_to_verdict": 10.284,
+      "reason": "solver_unknown",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20Detailed.increaseLockTime_intou25(uint256)",
+      "function": "ERC20Detailed.increaseLockTime_intou25(uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 524,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.169,
+      "time_to_verdict": 10.169,
+      "reason": "solver_unknown",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20Detailed.increaseLockTime_intou33(uint256)",
+      "function": "ERC20Detailed.increaseLockTime_intou33(uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 562,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 8.253,
+      "time_to_verdict": 8.253,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20Detailed.increaseLockTime_intou9(uint256)",
+      "function": "ERC20Detailed.increaseLockTime_intou9(uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 513,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.168,
+      "time_to_verdict": 10.168,
+      "reason": "solver_unknown",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "SimpleSwapCoin.increaseLockTime_intou13(uint256)",
+      "function": "SimpleSwapCoin.increaseLockTime_intou13(uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 610,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.116,
+      "time_to_verdict": 10.116,
+      "reason": "solver_unknown",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC09",
+      "function": "ERC20.increaseLockTime_intou17(uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20.increaseLockTime_intou37(uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20.transfer_intou14(address,uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20.transfer_intou26(address,uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20.transfer_intou30(address,uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20.transfer_intou38(address,uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20Detailed.increaseLockTime_intou25(uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20Detailed.increaseLockTime_intou33(uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "ERC20Detailed.increaseLockTime_intou9(uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "SafeMath.add(uint256,uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "SimpleSwapCoin.increaseLockTime_intou13(uint256)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

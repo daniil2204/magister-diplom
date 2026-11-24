@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Overflow-Underflow\\buggy_29.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.015,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "RaffleTokenExchange.buyRaffle(uint256[],uint256[])",
+      "line": null,
+      "detector": "reentrancy-eth"
+    }
+  ]
+}

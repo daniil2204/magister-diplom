@@ -1,0 +1,79 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\multiowned_vulnerable.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 1,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.375,
+  "error": null,
+  "targets": [
+    {
+      "class": "AC",
+      "swc": "SC01",
+      "entry_point": "MultiOwnable.newOwner(address)",
+      "function": "MultiOwnable.newOwner(address)",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 40,
+      "R": 0.9,
+      "P": 0.636396,
+      "b": 1,
+      "budget": 206.383,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.0,
+      "time_to_verdict": 0.375,
+      "reason": "analysis_error",
+      "counterexample": null
+    },
+    {
+      "class": "AC",
+      "swc": "SC01",
+      "entry_point": "MultiOwnable.deleteOwner(address)",
+      "function": "MultiOwnable.deleteOwner(address)",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 49,
+      "R": 0.5,
+      "P": 0.288675,
+      "b": 2,
+      "budget": 93.617,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.0,
+      "time_to_verdict": 0.375,
+      "reason": "analysis_error",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC01",
+      "function": "MultiOwnable.deleteOwner(address)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC01",
+      "function": "MultiOwnable.newOwner(address)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

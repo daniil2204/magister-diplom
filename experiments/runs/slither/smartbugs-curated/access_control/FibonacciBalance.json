@@ -1,0 +1,24 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\FibonacciBalance.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.002,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC10",
+      "function": "FibonacciBalance.withdraw()",
+      "line": null,
+      "detector": "controlled-delegatecall"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC10",
+      "function": "FibonacciBalance.fallback()",
+      "line": null,
+      "detector": "controlled-delegatecall"
+    }
+  ]
+}

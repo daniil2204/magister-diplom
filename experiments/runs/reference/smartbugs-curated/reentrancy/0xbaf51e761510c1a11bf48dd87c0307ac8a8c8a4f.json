@@ -1,0 +1,134 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.932,
+  "error": null,
+  "targets": [
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "ETH_VAULT.CashOut(uint256)",
+      "function": "ETH_VAULT.CashOut(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 43,
+      "R": 1.0,
+      "P": 0.57735,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.165,
+      "time_to_verdict": 0.165,
+      "reason": null,
+      "counterexample": {
+        "function": "ETH_VAULT.CashOut(uint256)",
+        "arguments": {
+          "_am": "0"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "ETH_VAULT.CashOut(uint256)"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "ETH_VAULT.CashOut(uint256)",
+      "function": "ETH_VAULT.CashOut(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 43,
+      "R": 0.6,
+      "P": 0.34641,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ETH_VAULT.CashOut(uint256)",
+      "function": "ETH_VAULT.CashOut(uint256)",
+      "node_id": 3,
+      "op_index": 1,
+      "line": 43,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ETH_VAULT.Deposit()",
+      "function": "ETH_VAULT.Deposit()",
+      "node_id": 2,
+      "op_index": 1,
+      "line": 29,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.247,
+      "time_to_verdict": 0.247,
+      "reason": "storage_dependent",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "ETH_VAULT.CashOut(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC08",
+      "function": "ETH_VAULT.CashOut(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "ETH_VAULT.CashOut(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC09",
+      "function": "ETH_VAULT.Deposit()",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

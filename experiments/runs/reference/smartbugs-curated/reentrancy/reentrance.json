@@ -1,0 +1,142 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\reentrance.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.569,
+  "error": null,
+  "targets": [
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "Reentrance.withdraw(uint256)",
+      "function": "Reentrance.withdraw(uint256)",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 27,
+      "R": 1.0,
+      "P": 0.57735,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.016,
+      "time_to_verdict": 0.016,
+      "reason": null,
+      "counterexample": {
+        "function": "Reentrance.withdraw(uint256)",
+        "arguments": {
+          "_amount": "0"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "Reentrance.withdraw(uint256)"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "Reentrance.withdraw(uint256)",
+      "function": "Reentrance.withdraw(uint256)",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 27,
+      "R": 0.6,
+      "P": 0.34641,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.004,
+      "time_to_verdict": 0.004,
+      "reason": null,
+      "counterexample": {
+        "function": "Reentrance.withdraw(uint256)",
+        "arguments": {
+          "_amount": "0"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "Reentrance.donate(address)",
+      "function": "Reentrance.donate(address)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 14,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.115,
+      "time_to_verdict": 0.115,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "Reentrance.withdraw(uint256)",
+      "function": "Reentrance.withdraw(uint256)",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 27,
+      "R": 0.64,
+      "P": 0.369504,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.003,
+      "time_to_verdict": 0.003,
+      "reason": null,
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "Reentrance.withdraw(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC08",
+      "function": "Reentrance.withdraw(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "Reentrance.donate(address)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "Reentrance.withdraw(uint256)",
+      "verdict": "REFUTED"
+    }
+  ]
+}

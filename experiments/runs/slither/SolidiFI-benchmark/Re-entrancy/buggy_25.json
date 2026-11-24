@@ -1,0 +1,52 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Re-entrancy\\buggy_25.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.012,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "WhiteBetting.withdrawBalance_re_ent26()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "WhiteBetting.withdraw_balances_re_ent8()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "WhiteBetting.bug_re_ent13()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "WhiteBetting.buyTicket_re_ent9()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "WhiteBetting.withdrawBalance_re_ent33()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "WhiteBetting.withdrawBalance_re_ent40()",
+      "line": null,
+      "detector": "reentrancy-eth"
+    }
+  ]
+}

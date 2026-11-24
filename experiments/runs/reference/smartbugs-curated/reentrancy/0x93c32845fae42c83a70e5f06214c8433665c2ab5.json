@@ -1,0 +1,88 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.531,
+  "error": null,
+  "targets": [
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "X_WALLET.Collect(uint256)",
+      "function": "X_WALLET.Collect(uint256)",
+      "node_id": 4,
+      "op_index": 0,
+      "line": 31,
+      "R": 1.0,
+      "P": 0.57735,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.021,
+      "time_to_verdict": 0.021,
+      "reason": null,
+      "counterexample": {
+        "function": "X_WALLET.Collect(uint256)",
+        "arguments": {
+          "_am": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "X_WALLET.Collect(uint256)"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "X_WALLET.Collect(uint256)",
+      "function": "X_WALLET.Collect(uint256)",
+      "node_id": 4,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.6,
+      "P": 0.34641,
+      "b": 2,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": null,
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "X_WALLET.Collect(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC08",
+      "function": "X_WALLET.Collect(uint256)",
+      "verdict": "CONFIRMED"
+    }
+  ]
+}

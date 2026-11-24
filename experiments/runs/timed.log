@@ -1,0 +1,722 @@
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[1/360] M1       buggy_14.sol: 0.7s, 2 targets
+[2/360] M2       buggy_14.sol: 0.69s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[3/360] M3       buggy_14.sol: 0.59s, 2 targets
+[4/360] M4       buggy_14.sol: 0.57s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[5/360] k1       buggy_14.sol: 0.58s, 2 targets
+[6/360] k2       buggy_14.sol: 0.58s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[7/360] k3       buggy_14.sol: 0.62s, 2 targets
+[8/360] slither  buggy_14.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[9/360] mythril  buggy_14.sol: ERROR myth is not installed
+[10/360] M1       FibonacciBalance.sol: 0.7s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[11/360] M2       FibonacciBalance.sol: 0.54s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[12/360] M3       FibonacciBalance.sol: 0.59s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[13/360] M4       FibonacciBalance.sol: 0.56s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[14/360] k1       FibonacciBalance.sol: 0.49s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[15/360] k2       FibonacciBalance.sol: 0.57s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[16/360] k3       FibonacciBalance.sol: 0.58s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[17/360] slither  FibonacciBalance.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[18/360] mythril  FibonacciBalance.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[19/360] M1       arbitrary_location_write_simple.sol: 0.44s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[20/360] M2       arbitrary_location_write_simple.sol: 0.48s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[21/360] M3       arbitrary_location_write_simple.sol: 0.4s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[22/360] M4       arbitrary_location_write_simple.sol: 0.48s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[23/360] k1       arbitrary_location_write_simple.sol: 0.4s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[24/360] k2       arbitrary_location_write_simple.sol: 0.41s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[25/360] k3       arbitrary_location_write_simple.sol: 0.4s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[26/360] slither  arbitrary_location_write_simple.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[27/360] mythril  arbitrary_location_write_simple.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[28/360] M1       incorrect_constructor_name2.sol: 0.45s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[29/360] M2       incorrect_constructor_name2.sol: 0.41s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[30/360] M3       incorrect_constructor_name2.sol: 0.4s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[31/360] M4       incorrect_constructor_name2.sol: 0.41s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[32/360] k1       incorrect_constructor_name2.sol: 0.41s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[33/360] k2       incorrect_constructor_name2.sol: 0.43s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[34/360] k3       incorrect_constructor_name2.sol: 0.45s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[35/360] slither  incorrect_constructor_name2.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[36/360] mythril  incorrect_constructor_name2.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[37/360] M1       multiowned_vulnerable.sol: 0.43s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[38/360] M2       multiowned_vulnerable.sol: 0.43s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[39/360] M3       multiowned_vulnerable.sol: 0.41s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[40/360] M4       multiowned_vulnerable.sol: 0.38s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[41/360] k1       multiowned_vulnerable.sol: 0.37s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[42/360] k2       multiowned_vulnerable.sol: 0.39s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[43/360] k3       multiowned_vulnerable.sol: 0.39s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[44/360] slither  multiowned_vulnerable.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[45/360] mythril  multiowned_vulnerable.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[46/360] M1       phishable.sol: 0.52s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[47/360] M2       phishable.sol: 0.43s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[48/360] M3       phishable.sol: 0.49s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[49/360] M4       phishable.sol: 0.48s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[50/360] k1       phishable.sol: 0.47s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[51/360] k2       phishable.sol: 0.43s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[52/360] k3       phishable.sol: 0.45s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[53/360] slither  phishable.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[54/360] mythril  phishable.sol: ERROR myth is not installed
+[55/360] M1       proxy.sol: 0.49s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[56/360] M2       proxy.sol: 0.5s, 1 targets
+[57/360] M3       proxy.sol: 0.52s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[58/360] M4       proxy.sol: 0.44s, 1 targets
+[59/360] k1       proxy.sol: 0.44s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[60/360] k2       proxy.sol: 0.5s, 1 targets
+[61/360] k3       proxy.sol: 0.48s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[62/360] slither  proxy.sol: done
+[63/360] mythril  proxy.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[64/360] M1       rubixi.sol: 80.14s, 19 targets
+[65/360] M2       rubixi.sol: 0.63s, 19 targets
+[66/360] M3       rubixi.sol: 34.66s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[67/360] M4       rubixi.sol: 74.37s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[68/360] k1       rubixi.sol: 57.69s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[69/360] k2       rubixi.sol: 120.14s, 19 targets
+[70/360] k3       rubixi.sol: 72.62s, 19 targets
+[71/360] slither  rubixi.sol: done
+[72/360] mythril  rubixi.sol: ERROR myth is not installed
+[73/360] M1       wallet_02_refund_nosub.sol: 0.8s, 3 targets
+[74/360] M2       wallet_02_refund_nosub.sol: 0.35s, 3 targets
+[75/360] M3       wallet_02_refund_nosub.sol: 0.64s, 3 targets
+[76/360] M4       wallet_02_refund_nosub.sol: 0.65s, 3 targets
+[77/360] k1       wallet_02_refund_nosub.sol: 0.88s, 3 targets
+[78/360] k2       wallet_02_refund_nosub.sol: 0.79s, 3 targets
+[79/360] k3       wallet_02_refund_nosub.sol: 0.82s, 3 targets
+[80/360] slither  wallet_02_refund_nosub.sol: done
+[81/360] mythril  wallet_02_refund_nosub.sol: ERROR myth is not installed
+[82/360] M1       wallet_04_confused_sign.sol: 0.97s, 3 targets
+[83/360] M2       wallet_04_confused_sign.sol: 0.46s, 3 targets
+[84/360] M3       wallet_04_confused_sign.sol: 0.98s, 3 targets
+[85/360] M4       wallet_04_confused_sign.sol: 0.93s, 3 targets
+[86/360] k1       wallet_04_confused_sign.sol: 1.01s, 3 targets
+[87/360] k2       wallet_04_confused_sign.sol: 1.03s, 3 targets
+[88/360] k3       wallet_04_confused_sign.sol: 0.9s, 3 targets
+[89/360] slither  wallet_04_confused_sign.sol: done
+[90/360] mythril  wallet_04_confused_sign.sol: ERROR myth is not installed
+[91/360] M1       buggy_14.sol: 0.52s, 2 targets
+[92/360] M2       buggy_14.sol: 0.57s, 2 targets
+[93/360] M3       buggy_14.sol: 0.51s, 2 targets
+[94/360] M4       buggy_14.sol: 0.51s, 2 targets
+[95/360] k1       buggy_14.sol: 0.55s, 2 targets
+[96/360] k2       buggy_14.sol: 0.48s, 2 targets
+[97/360] k3       buggy_14.sol: 0.51s, 2 targets
+[98/360] slither  buggy_14.sol: done
+[99/360] mythril  buggy_14.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[100/360] M1       buggy_48.sol: 10.04s, 6 targets
+[101/360] M2       buggy_48.sol: 0.46s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[102/360] M3       buggy_48.sol: 11.39s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[103/360] M4       buggy_48.sol: 11.21s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[104/360] k1       buggy_48.sol: 11.21s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[105/360] k2       buggy_48.sol: 11.33s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[106/360] k3       buggy_48.sol: 11.32s, 6 targets
+[107/360] slither  buggy_48.sol: done
+[108/360] mythril  buggy_48.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[109/360] M1       buggy_3.sol: 22.61s, 12 targets
+[110/360] M2       buggy_3.sol: 0.52s, 12 targets
+[111/360] M3       buggy_3.sol: 19.76s, 12 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[112/360] M4       buggy_3.sol: 22.18s, 12 targets
+[113/360] k1       buggy_3.sol: 19.7s, 12 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[114/360] k2       buggy_3.sol: 22.12s, 12 targets
+[115/360] k3       buggy_3.sol: 20.32s, 12 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[116/360] slither  buggy_3.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[117/360] mythril  buggy_3.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[118/360] M1       buggy_33.sol: 303.83s, 18 targets
+[119/360] M2       buggy_33.sol: 0.53s, 18 targets
+[120/360] M3       buggy_33.sol: 292.24s, 18 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[121/360] M4       buggy_33.sol: 305.56s, 18 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[122/360] k1       buggy_33.sol: 305.72s, 18 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[123/360] k2       buggy_33.sol: 350.33s, 18 targets
+[124/360] k3       buggy_33.sol: 324.62s, 18 targets
+[125/360] slither  buggy_33.sol: done
+[126/360] mythril  buggy_33.sol: ERROR myth is not installed
+[127/360] M1       0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: 11.54s, 5 targets
+[128/360] M2       0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: 0.59s, 5 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[129/360] M3       0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: 1.65s, 5 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[130/360] M4       0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: 10.92s, 5 targets
+[131/360] k1       0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: 1.68s, 5 targets
+[132/360] k2       0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: 1.59s, 5 targets
+[133/360] k3       0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: 1.6s, 5 targets
+[134/360] slither  0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: done
+[135/360] mythril  0x39cfd754c85023648bf003bea2dd498c5612abfa.sol: ERROR myth is not installed
+[136/360] M1       0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: 0.43s, 0 targets
+[137/360] M2       0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: 0.36s, 0 targets
+[138/360] M3       0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: 0.36s, 0 targets
+[139/360] M4       0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: 0.56s, 0 targets
+[140/360] k1       0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: 0.38s, 0 targets
+[141/360] k2       0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: 0.35s, 0 targets
+[142/360] k3       0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: 0.38s, 0 targets
+[143/360] slither  0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: done
+[144/360] mythril  0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol: ERROR myth is not installed
+[145/360] M1       0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: 0.39s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[146/360] M2       0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: 0.4s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[147/360] M3       0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: 0.44s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[148/360] M4       0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: 0.41s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[149/360] k1       0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: 0.43s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[150/360] k2       0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: 0.4s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[151/360] k3       0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: 0.45s, 2 targets
+[152/360] slither  0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[153/360] mythril  0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol: ERROR myth is not installed
+[154/360] M1       0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: 0.49s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[155/360] M2       0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: 0.46s, 0 targets
+[156/360] M3       0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: 0.43s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[157/360] M4       0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: 0.52s, 0 targets
+[158/360] k1       0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: 0.46s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[159/360] k2       0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: 0.45s, 0 targets
+[160/360] k3       0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: 0.43s, 0 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[161/360] slither  0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: done
+[162/360] mythril  0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[163/360] M1       0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: 1.5s, 3 targets
+[164/360] M2       0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: 0.38s, 3 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[165/360] M3       0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: 1.52s, 3 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[166/360] M4       0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: 1.45s, 3 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[167/360] k1       0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: 1.45s, 3 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[168/360] k2       0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: 1.4s, 3 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[169/360] k3       0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: 1.49s, 3 targets
+[170/360] slither  0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[171/360] mythril  0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[172/360] M1       king_of_the_ether_throne.sol: 148.11s, 29 targets
+[173/360] M2       king_of_the_ether_throne.sol: 0.43s, 29 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[174/360] M3       king_of_the_ether_throne.sol: 151.11s, 29 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[175/360] M4       king_of_the_ether_throne.sol: 295.29s, 29 targets
+[176/360] k1       king_of_the_ether_throne.sol: 145.76s, 29 targets
+[177/360] k2       king_of_the_ether_throne.sol: 143.97s, 29 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[178/360] k3       king_of_the_ether_throne.sol: 136.76s, 29 targets
+[179/360] slither  king_of_the_ether_throne.sol: done
+[180/360] mythril  king_of_the_ether_throne.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[181/360] M1       buggy_24.sol: 301.9s, 110 targets
+[182/360] M2       buggy_24.sol: 1.74s, 110 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[183/360] M3       buggy_24.sol: 302.5s, 110 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[184/360] M4       buggy_24.sol: 303.43s, 110 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[185/360] k1       buggy_24.sol: 302.03s, 110 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[186/360] k2       buggy_24.sol: 301.91s, 110 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[187/360] k3       buggy_24.sol: 301.73s, 110 targets
+[188/360] slither  buggy_24.sol: done
+[189/360] mythril  buggy_24.sol: ERROR myth is not installed
+[190/360] M1       buggy_25.sol: 3.92s, 22 targets
+[191/360] M2       buggy_25.sol: 0.57s, 22 targets
+[192/360] M3       buggy_25.sol: 4.29s, 22 targets
+[193/360] M4       buggy_25.sol: 4.38s, 22 targets
+[194/360] k1       buggy_25.sol: 4.73s, 22 targets
+[195/360] k2       buggy_25.sol: 3.78s, 22 targets
+[196/360] k3       buggy_25.sol: 4.33s, 22 targets
+[197/360] slither  buggy_25.sol: done
+[198/360] mythril  buggy_25.sol: ERROR myth is not installed
+[199/360] M1       0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: 5.62s, 5 targets
+[200/360] M2       0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: 0.46s, 5 targets
+[201/360] M3       0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: 4.87s, 5 targets
+[202/360] M4       0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: 6.36s, 5 targets
+[203/360] k1       0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: 5.58s, 5 targets
+[204/360] k2       0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: 5.87s, 5 targets
+[205/360] k3       0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: 6.66s, 5 targets
+[206/360] slither  0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: done
+[207/360] mythril  0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol: ERROR myth is not installed
+[208/360] M1       0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: 5.66s, 5 targets
+[209/360] M2       0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: 0.36s, 5 targets
+[210/360] M3       0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: 5.54s, 5 targets
+[211/360] M4       0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: 6.14s, 5 targets
+[212/360] k1       0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: 5.88s, 5 targets
+[213/360] k2       0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: 5.86s, 5 targets
+[214/360] k3       0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: 5.96s, 5 targets
+[215/360] slither  0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: done
+[216/360] mythril  0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol: ERROR myth is not installed
+[217/360] M1       0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: 5.05s, 7 targets
+[218/360] M2       0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: 0.35s, 7 targets
+[219/360] M3       0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: 5.07s, 7 targets
+[220/360] M4       0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: 5.22s, 7 targets
+[221/360] k1       0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: 4.93s, 7 targets
+[222/360] k2       0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: 5.0s, 7 targets
+[223/360] k3       0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: 4.86s, 7 targets
+[224/360] slither  0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: done
+[225/360] mythril  0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol: ERROR myth is not installed
+[226/360] M1       0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: 1.82s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[227/360] M2       0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: 0.44s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[228/360] M3       0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: 2.24s, 2 targets
+[229/360] M4       0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: 2.08s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[230/360] k1       0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: 1.94s, 2 targets
+[231/360] k2       0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: 2.01s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[232/360] k3       0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: 2.28s, 2 targets
+[233/360] slither  0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: done
+[234/360] mythril  0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[235/360] M1       0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: 5.48s, 5 targets
+[236/360] M2       0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: 0.36s, 5 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[237/360] M3       0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: 5.19s, 5 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[238/360] M4       0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: 5.88s, 5 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[239/360] k1       0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: 5.02s, 5 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[240/360] k2       0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: 6.07s, 5 targets
+[241/360] k3       0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: 5.5s, 5 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[242/360] slither  0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: done
+[243/360] mythril  0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[244/360] M1       0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: 4.07s, 4 targets
+[245/360] M2       0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: 0.4s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[246/360] M3       0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: 4.0s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[247/360] M4       0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: 3.42s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[248/360] k1       0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: 4.75s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[249/360] k2       0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: 5.03s, 4 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[250/360] k3       0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: 4.11s, 4 targets
+[251/360] slither  0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: done
+[252/360] mythril  0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[253/360] M1       0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: 1.94s, 2 targets
+[254/360] M2       0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: 0.45s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[255/360] M3       0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: 2.08s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[256/360] M4       0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: 2.1s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[257/360] k1       0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: 2.12s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[258/360] k2       0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: 1.98s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[259/360] k3       0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: 2.04s, 2 targets
+[260/360] slither  0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[261/360] mythril  0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[262/360] M1       etherstore.sol: 6.09s, 6 targets
+[263/360] M2       etherstore.sol: 0.39s, 6 targets
+[264/360] M3       etherstore.sol: 5.35s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[265/360] M4       etherstore.sol: 5.66s, 6 targets
+[266/360] k1       etherstore.sol: 5.77s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[267/360] k2       etherstore.sol: 5.82s, 6 targets
+[268/360] k3       etherstore.sol: 5.81s, 6 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[269/360] slither  etherstore.sol: done
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[270/360] mythril  etherstore.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[271/360] M1       buggy_11.sol: 272.69s, 33 targets
+[272/360] M2       buggy_11.sol: 0.56s, 33 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[273/360] M3       buggy_11.sol: 272.97s, 33 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[274/360] M4       buggy_11.sol: 277.23s, 33 targets
+[275/360] k1       buggy_11.sol: 273.25s, 33 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[276/360] k2       buggy_11.sol: 273.09s, 33 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[277/360] k3       buggy_11.sol: 273.05s, 33 targets
+[278/360] slither  buggy_11.sol: done
+[279/360] mythril  buggy_11.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[280/360] M1       buggy_29.sol: 147.78s, 21 targets
+[281/360] M2       buggy_29.sol: 0.54s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[282/360] M3       buggy_29.sol: 147.41s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[283/360] M4       buggy_29.sol: 154.44s, 21 targets
+[284/360] k1       buggy_29.sol: 149.73s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[285/360] k2       buggy_29.sol: 148.22s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[286/360] k3       buggy_29.sol: 148.5s, 21 targets
+[287/360] slither  buggy_29.sol: done
+[288/360] mythril  buggy_29.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[289/360] M1       buggy_4.sol: 156.19s, 19 targets
+[290/360] M2       buggy_4.sol: 0.44s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[291/360] M3       buggy_4.sol: 155.2s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[292/360] M4       buggy_4.sol: 154.31s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[293/360] k1       buggy_4.sol: 155.99s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[294/360] k2       buggy_4.sol: 156.83s, 19 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[295/360] k3       buggy_4.sol: 156.28s, 19 targets
+[296/360] slither  buggy_4.sol: done
+[297/360] mythril  buggy_4.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[298/360] M1       buggy_40.sol: 195.44s, 21 targets
+[299/360] M2       buggy_40.sol: 0.64s, 21 targets
+[300/360] M3       buggy_40.sol: 193.18s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[301/360] M4       buggy_40.sol: 192.32s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[302/360] k1       buggy_40.sol: 197.53s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[303/360] k2       buggy_40.sol: 195.34s, 21 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[304/360] k3       buggy_40.sol: 192.75s, 21 targets
+[305/360] slither  buggy_40.sol: done
+[306/360] mythril  buggy_40.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[307/360] M1       BECToken.sol: 11.29s, 7 targets
+[308/360] M2       BECToken.sol: 0.51s, 7 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[309/360] M3       BECToken.sol: 11.96s, 7 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[310/360] M4       BECToken.sol: 11.02s, 7 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[311/360] k1       BECToken.sol: 12.25s, 7 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[312/360] k2       BECToken.sol: 11.06s, 7 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[313/360] k3       BECToken.sol: 11.96s, 7 targets
+[314/360] slither  BECToken.sol: done
+[315/360] mythril  BECToken.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[316/360] M1       integer_overflow_1.sol: 10.94s, 1 targets
+[317/360] M2       integer_overflow_1.sol: 0.33s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[318/360] M3       integer_overflow_1.sol: 10.92s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[319/360] M4       integer_overflow_1.sol: 10.88s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[320/360] k1       integer_overflow_1.sol: 10.8s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[321/360] k2       integer_overflow_1.sol: 11.04s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[322/360] k3       integer_overflow_1.sol: 10.87s, 1 targets
+[323/360] slither  integer_overflow_1.sol: done
+[324/360] mythril  integer_overflow_1.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[325/360] M1       integer_overflow_add.sol: 11.02s, 1 targets
+[326/360] M2       integer_overflow_add.sol: 0.34s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[327/360] M3       integer_overflow_add.sol: 10.93s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[328/360] M4       integer_overflow_add.sol: 10.88s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[329/360] k1       integer_overflow_add.sol: 10.84s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[330/360] k2       integer_overflow_add.sol: 10.83s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[331/360] k3       integer_overflow_add.sol: 11.07s, 1 targets
+[332/360] slither  integer_overflow_add.sol: done
+[333/360] mythril  integer_overflow_add.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[334/360] M1       integer_overflow_mapping_sym_1.sol: 10.78s, 1 targets
+[335/360] M2       integer_overflow_mapping_sym_1.sol: 0.35s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[336/360] M3       integer_overflow_mapping_sym_1.sol: 11.08s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[337/360] M4       integer_overflow_mapping_sym_1.sol: 10.94s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[338/360] k1       integer_overflow_mapping_sym_1.sol: 11.13s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[339/360] k2       integer_overflow_mapping_sym_1.sol: 10.89s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[340/360] k3       integer_overflow_mapping_sym_1.sol: 11.16s, 1 targets
+[341/360] slither  integer_overflow_mapping_sym_1.sol: done
+[342/360] mythril  integer_overflow_mapping_sym_1.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[343/360] M1       integer_overflow_multitx_multifunc_feasible.sol: 10.83s, 1 targets
+[344/360] M2       integer_overflow_multitx_multifunc_feasible.sol: 0.37s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[345/360] M3       integer_overflow_multitx_multifunc_feasible.sol: 10.91s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[346/360] M4       integer_overflow_multitx_multifunc_feasible.sol: 10.83s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[347/360] k1       integer_overflow_multitx_multifunc_feasible.sol: 10.77s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[348/360] k2       integer_overflow_multitx_multifunc_feasible.sol: 10.76s, 1 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[349/360] k3       integer_overflow_multitx_multifunc_feasible.sol: 10.81s, 1 targets
+[350/360] slither  integer_overflow_multitx_multifunc_feasible.sol: done
+[351/360] mythril  integer_overflow_multitx_multifunc_feasible.sol: ERROR myth is not installed
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[352/360] M1       timelock.sol: 13.17s, 2 targets
+[353/360] M2       timelock.sol: 0.4s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[354/360] M3       timelock.sol: 13.17s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[355/360] M4       timelock.sol: 13.24s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[356/360] k1       timelock.sol: 13.01s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[357/360] k2       timelock.sol: 12.92s, 2 targets
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+WARNING:CryticCompile:Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+[358/360] k3       timelock.sol: 13.16s, 2 targets
+[359/360] slither  timelock.sol: done
+[360/360] mythril  timelock.sol: ERROR myth is not installed
+
+40 contracts x (7 configs + 2 baselines) = 360 items, 360 executed, 40 errored -> experiments\runs

@@ -1,0 +1,38 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\rubixi.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.006,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Rubixi.collectPercentOfFees(uint256)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Rubixi.addPayout(uint256)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Rubixi.collectFeesInEther(uint256)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Rubixi.collectAllFees()",
+      "line": null,
+      "detector": "unchecked-send"
+    }
+  ]
+}

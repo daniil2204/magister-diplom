@@ -1,0 +1,109 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\etherbank.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.642,
+  "error": null,
+  "targets": [
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "EtherBank.withdrawBalance()",
+      "function": "EtherBank.withdrawBalance()",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 22,
+      "R": 0.8,
+      "P": 0.565685,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.007,
+      "time_to_verdict": 0.007,
+      "reason": null,
+      "counterexample": {
+        "function": "EtherBank.withdrawBalance()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "EtherBank.withdrawBalance()"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "EtherBank.withdrawBalance()",
+      "function": "EtherBank.withdrawBalance()",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 22,
+      "R": 0.6,
+      "P": 0.424264,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "EtherBank.addToBalance()",
+      "function": "EtherBank.addToBalance()",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 15,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.124,
+      "time_to_verdict": 0.124,
+      "reason": "storage_dependent",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "EtherBank.withdrawBalance()",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC08",
+      "function": "EtherBank.withdrawBalance()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "EtherBank.addToBalance()",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

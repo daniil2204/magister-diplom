@@ -1,0 +1,91 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 3.082,
+  "error": null,
+  "targets": [
+    {
+      "class": "AC",
+      "swc": "SC01",
+      "entry_point": "DrainMe.DranMe()",
+      "function": "DrainMe.DranMe()",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 33,
+      "R": 0.9,
+      "P": 0.9,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.016,
+      "time_to_verdict": 0.016,
+      "reason": null,
+      "counterexample": {
+        "function": "DrainMe.DranMe()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "AC",
+      "swc": "SC01",
+      "entry_point": "DrainMe.manipulateSecret()",
+      "function": "DrainMe.unlockSecret()",
+      "node_id": 4,
+      "op_index": 0,
+      "line": 89,
+      "R": 0.8,
+      "P": 0.357771,
+      "b": 4,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 2.493,
+      "time_to_verdict": 2.493,
+      "reason": null,
+      "counterexample": {
+        "function": "DrainMe.manipulateSecret()",
+        "arguments": {},
+        "storage": {},
+        "sender": "79228162514264337593543950336",
+        "value": "73789246825272836096"
+      }
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC01",
+      "function": "DrainMe.DranMe()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC01",
+      "function": "DrainMe.unlockSecret()",
+      "verdict": "CONFIRMED"
+    }
+  ]
+}

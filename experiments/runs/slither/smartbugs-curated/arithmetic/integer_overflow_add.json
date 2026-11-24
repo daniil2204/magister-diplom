@@ -1,0 +1,9 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\arithmetic\\integer_overflow_add.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.0,
+  "timed_out": false,
+  "error": null,
+  "findings": []
+}

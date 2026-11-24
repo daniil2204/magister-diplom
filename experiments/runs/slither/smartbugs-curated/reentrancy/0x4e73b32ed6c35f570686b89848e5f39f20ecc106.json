@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.009,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "PRIVATE_ETH_CELL.Collect(uint256)",
+      "line": null,
+      "detector": "reentrancy-eth"
+    }
+  ]
+}

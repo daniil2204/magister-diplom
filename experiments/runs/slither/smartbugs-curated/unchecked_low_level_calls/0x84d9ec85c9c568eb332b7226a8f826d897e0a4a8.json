@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.002,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Owned.execute(address,uint256,bytes)",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    }
+  ]
+}

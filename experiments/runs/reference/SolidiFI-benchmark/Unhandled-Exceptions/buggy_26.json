@@ -1,0 +1,208 @@
+{
+  "contract": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Unhandled-Exceptions\\buggy_26.sol",
+  "solc_version": "0.5.17",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 14.173,
+  "error": null,
+  "targets": [
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "UBBCToken.sendToWinner_unchk20()",
+      "function": "UBBCToken.sendToWinner_unchk20()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 84,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.083,
+      "time_to_verdict": 0.083,
+      "reason": null,
+      "counterexample": {
+        "function": "UBBCToken.sendToWinner_unchk20()",
+        "arguments": {},
+        "storage": {},
+        "sender": "1379984327582841329670707220193439286073964101676",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "UBBCToken.sendToWinner_unchk32()",
+      "function": "UBBCToken.sendToWinner_unchk32()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 94,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.071,
+      "time_to_verdict": 0.071,
+      "reason": null,
+      "counterexample": {
+        "function": "UBBCToken.sendToWinner_unchk32()",
+        "arguments": {},
+        "storage": {},
+        "sender": "1379984327582841329670707220193439286073964101676",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "UBBCToken.sendToWinner_unchk44()",
+      "function": "UBBCToken.sendToWinner_unchk44()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 221,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.074,
+      "time_to_verdict": 0.074,
+      "reason": null,
+      "counterexample": {
+        "function": "UBBCToken.sendToWinner_unchk44()",
+        "arguments": {},
+        "storage": {},
+        "sender": "1379984327582841329670707220193439286073964101676",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "UBBCToken.sendToWinner_unchk8()",
+      "function": "UBBCToken.sendToWinner_unchk8()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 184,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.062,
+      "time_to_verdict": 0.062,
+      "reason": null,
+      "counterexample": {
+        "function": "UBBCToken.sendToWinner_unchk8()",
+        "arguments": {},
+        "storage": {},
+        "sender": "1379984327582841329670707220193439286073964101676",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "UBBCToken.increaseAllowance(address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 10,
+      "R": 0.72,
+      "P": 0.72,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.761,
+      "time_to_verdict": 10.761,
+      "reason": "solver_unknown",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "UBBCToken.transfer(address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 10,
+      "R": 0.8,
+      "P": 0.4,
+      "b": 3,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.766,
+      "time_to_verdict": 0.766,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "UBBCToken.transferFrom(address,address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 10,
+      "R": 0.8,
+      "P": 0.4,
+      "b": 3,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.704,
+      "time_to_verdict": 0.704,
+      "reason": "storage_dependent",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "UBBCToken.sendToWinner_unchk20()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "UBBCToken.sendToWinner_unchk32()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "UBBCToken.sendToWinner_unchk44()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "UBBCToken.sendToWinner_unchk8()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "SafeMath.add(uint256,uint256)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

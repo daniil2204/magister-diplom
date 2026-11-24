@@ -1,0 +1,9 @@
+{
+  "tool": "mythril",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\arithmetic\\BECToken.sol",
+  "error": "myth is not installed",
+  "findings": [],
+  "elapsed": 0.0,
+  "timed_out": false,
+  "solc_version": null
+}

@@ -1,0 +1,115 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Unhandled-Exceptions\\buggy_3.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.008,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.my_func_uncheck36(address)",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.bug_unchk27(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.sendToWinner_unchk8()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.cash_unchk46(uint256,uint256,address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.withdrawLeftOver_unchk45()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.sendToWinner_unchk44()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.unhandledsend_unchk38(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.sendToWinner_unchk32()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.sendToWinner_unchk20()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.unhandledsend_unchk26(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.withdrawLeftOver_unchk33()",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.my_func_unchk35(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.bug_unchk39(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.unhandledsend_unchk14(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "CareerOnToken.my_func_unchk23(address)",
+      "line": null,
+      "detector": "unchecked-send"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\etherstore.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.002,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC08",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "line": null,
+      "detector": "reentrancy-eth"
+    }
+  ]
+}

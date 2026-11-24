@@ -1,0 +1,208 @@
+{
+  "contract": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Unhandled-Exceptions\\buggy_40.sol",
+  "solc_version": "0.5.17",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 1.28,
+  "error": null,
+  "targets": [
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "ERC20.sendToWinner_unchk44()",
+      "function": "ERC20.sendToWinner_unchk44()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 475,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.041,
+      "time_to_verdict": 0.041,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.sendToWinner_unchk44()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "ERC20.sendToWinner_unchk8()",
+      "function": "ERC20.sendToWinner_unchk8()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 378,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.026,
+      "time_to_verdict": 0.026,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20.sendToWinner_unchk8()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "ERC20Detailed.sendToWinner_unchk20()",
+      "function": "ERC20Detailed.sendToWinner_unchk20()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 514,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.027,
+      "time_to_verdict": 0.027,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20Detailed.sendToWinner_unchk20()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "ERC20Detailed.sendToWinner_unchk32()",
+      "function": "ERC20Detailed.sendToWinner_unchk32()",
+      "node_id": 3,
+      "op_index": 0,
+      "line": 524,
+      "R": 0.24,
+      "P": 0.169706,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.028,
+      "time_to_verdict": 0.028,
+      "reason": null,
+      "counterexample": {
+        "function": "ERC20Detailed.sendToWinner_unchk32()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.increaseAllowance(address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.72,
+      "P": 0.72,
+      "b": 0,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.001,
+      "time_to_verdict": 0.001,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transfer(address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.8,
+      "P": 0.4,
+      "b": 3,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.002,
+      "time_to_verdict": 0.002,
+      "reason": "unsupported_op",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "ERC20.transferFrom(address,address,uint256)",
+      "function": "SafeMath.add(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.8,
+      "P": 0.4,
+      "b": 3,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.001,
+      "time_to_verdict": 0.001,
+      "reason": "unsupported_op",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "ERC20.sendToWinner_unchk44()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "ERC20.sendToWinner_unchk8()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "ERC20Detailed.sendToWinner_unchk20()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "ERC20Detailed.sendToWinner_unchk32()",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "SafeMath.add(uint256,uint256)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

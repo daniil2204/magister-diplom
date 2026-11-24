@@ -1,0 +1,9 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\wallet_04_confused_sign.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.001,
+  "timed_out": false,
+  "error": null,
+  "findings": []
+}

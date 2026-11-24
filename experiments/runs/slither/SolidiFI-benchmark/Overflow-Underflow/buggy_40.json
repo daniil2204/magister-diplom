@@ -1,0 +1,9 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Overflow-Underflow\\buggy_40.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.006,
+  "timed_out": false,
+  "error": null,
+  "findings": []
+}

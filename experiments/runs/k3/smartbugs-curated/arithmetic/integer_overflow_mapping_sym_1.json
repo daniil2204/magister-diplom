@@ -1,0 +1,56 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\arithmetic\\integer_overflow_mapping_sym_1.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 3,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 11.158,
+  "error": null,
+  "targets": [
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "IntegerOverflowMappingSym1.init(uint256,uint256)",
+      "function": "IntegerOverflowMappingSym1.init(uint256,uint256)",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 16,
+      "R": 0.56,
+      "P": 0.56,
+      "b": 0,
+      "budget": 300.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 10.81,
+      "time_to_verdict": 11.158,
+      "reason": "solver_unknown",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC09",
+      "function": "IntegerOverflowMappingSym1.init(uint256,uint256)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

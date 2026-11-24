@@ -1,0 +1,31 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M2",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.363,
+  "error": null,
+  "targets": [],
+  "units": []
+}

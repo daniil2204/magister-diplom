@@ -1,0 +1,137 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 9.23,
+  "error": null,
+  "targets": [
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "PoCGame.donate()",
+      "function": "PoCGame.donateToWhale(uint256)",
+      "node_id": 2,
+      "op_index": 0,
+      "line": 199,
+      "R": 0.36,
+      "P": 0.254558,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 0.025,
+      "time_to_verdict": 0.025,
+      "reason": null,
+      "counterexample": {
+        "function": "PoCGame.donate()",
+        "arguments": {},
+        "storage": {},
+        "sender": "1461501637330902918203684832716283019655932542975",
+        "value": "0"
+      }
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "PoCGame.play()",
+      "function": "PoCGame.loseWager(uint256)",
+      "node_id": 2,
+      "op_index": 0,
+      "line": 211,
+      "R": 0.36,
+      "P": 0.146969,
+      "b": 5,
+      "budget": 120.0,
+      "verdict": "CONFIRMED",
+      "elapsed": 1.791,
+      "time_to_verdict": 1.791,
+      "reason": null,
+      "counterexample": {
+        "function": "PoCGame.play()",
+        "arguments": {},
+        "storage": {},
+        "sender": "0",
+        "value": "0"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "PoCGame.donate()",
+      "function": "PoCGame.donateToWhale(uint256)",
+      "node_id": 2,
+      "op_index": 0,
+      "line": 199,
+      "R": 0.64,
+      "P": 0.452548,
+      "b": 1,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.438,
+      "time_to_verdict": 0.438,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "PoCGame.play()",
+      "function": "PoCGame.loseWager(uint256)",
+      "node_id": 2,
+      "op_index": 0,
+      "line": 211,
+      "R": 0.64,
+      "P": 0.261279,
+      "b": 5,
+      "budget": 120.0,
+      "verdict": "UNKNOWN",
+      "elapsed": 6.411,
+      "time_to_verdict": 6.411,
+      "reason": "solver_unknown",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "PoCGame.donateToWhale(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC06",
+      "function": "PoCGame.loseWager(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "PoCGame.donateToWhale(uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "PoCGame.loseWager(uint256)",
+      "verdict": "UNKNOWN"
+    }
+  ]
+}

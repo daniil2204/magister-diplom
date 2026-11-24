@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\proxy.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.001,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC10",
+      "function": "Proxy.forward(address,bytes)",
+      "line": null,
+      "detector": "controlled-delegatecall"
+    }
+  ]
+}

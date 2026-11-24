@@ -1,0 +1,45 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.003,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Puppet.fallback()",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Splitter.fundPuppets()",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Splitter.fundPuppets()",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Splitter.fundPuppets()",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Splitter.fundPuppets()",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    }
+  ]
+}

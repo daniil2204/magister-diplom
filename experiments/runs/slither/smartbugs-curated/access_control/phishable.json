@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\phishable.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.001,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "Phishable.withdrawAll(address)",
+      "line": null,
+      "detector": "tx-origin"
+    }
+  ]
+}

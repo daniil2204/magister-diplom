@@ -1,0 +1,164 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\tx.origin\\buggy_14.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.014,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.transferTo_txorigin35(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.bug_txorigin36(address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.withdrawAll_txorigin30(address,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.transferTo_txorigin3(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20Detailed.transferTo_txorigin27(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20Detailed.sendto_txorigin33(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.bug_txorigin8(address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.bug_txorigin32(address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.withdrawAll_txorigin38(address,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.bug_txorigin4(address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20Detailed.bug_txorigin40(address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.sendto_txorigin25(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "SaveWon.bug_txorigin20(address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.withdrawAll_txorigin14(address,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.transferTo_txorigin19(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20Detailed.withdrawAll_txorigin26(address,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "SaveWon.sendto_txorigin13(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.transferTo_txorigin7(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.sendto_txorigin9(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.transferTo_txorigin39(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20Detailed.transferTo_txorigin31(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    },
+    {
+      "tool": "slither",
+      "swc": "SC01",
+      "function": "ERC20.transferTo_txorigin23(address,uint256,address)",
+      "line": null,
+      "detector": "tx-origin"
+    }
+  ]
+}

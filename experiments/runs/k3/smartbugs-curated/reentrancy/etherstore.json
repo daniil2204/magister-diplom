@@ -1,0 +1,179 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\reentrancy\\etherstore.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 3,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 5.814,
+  "error": null,
+  "targets": [
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "EtherStore.depositFunds()",
+      "function": "EtherStore.depositFunds()",
+      "node_id": 1,
+      "op_index": 1,
+      "line": 17,
+      "R": 0.64,
+      "P": 0.64,
+      "b": 0,
+      "budget": 81.449,
+      "verdict": "UNKNOWN",
+      "elapsed": 1.96,
+      "time_to_verdict": 2.356,
+      "reason": "storage_dependent",
+      "counterexample": null
+    },
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "EtherStore.withdrawFunds(uint256)",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 28,
+      "R": 1.0,
+      "P": 0.447214,
+      "b": 4,
+      "budget": 56.914,
+      "verdict": "CONFIRMED",
+      "elapsed": 1.654,
+      "time_to_verdict": 4.01,
+      "reason": null,
+      "counterexample": {
+        "function": "EtherStore.withdrawFunds(uint256)",
+        "arguments": {
+          "_weiToWithdraw": "0"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "EtherStore.withdrawFunds(uint256)"
+      }
+    },
+    {
+      "class": "RE",
+      "swc": "SC08",
+      "entry_point": "EtherStore.withdrawFunds(uint256)",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "node_id": 6,
+      "op_index": 1,
+      "line": 29,
+      "R": 1.0,
+      "P": 0.447214,
+      "b": 4,
+      "budget": 56.914,
+      "verdict": "CONFIRMED",
+      "elapsed": 1.798,
+      "time_to_verdict": 5.808,
+      "reason": null,
+      "counterexample": {
+        "function": "EtherStore.withdrawFunds(uint256)",
+        "arguments": {
+          "_weiToWithdraw": "0"
+        },
+        "storage": {},
+        "sender": "0",
+        "value": "0",
+        "reentry_function": "EtherStore.withdrawFunds(uint256)"
+      }
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "EtherStore.withdrawFunds(uint256)",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 28,
+      "R": 0.64,
+      "P": 0.286217,
+      "b": 4,
+      "budget": 36.425,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 5.81,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "EtherStore.withdrawFunds(uint256)",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "node_id": 5,
+      "op_index": 1,
+      "line": 28,
+      "R": 0.6,
+      "P": 0.268328,
+      "b": 4,
+      "budget": 34.149,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 5.812,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "UC",
+      "swc": "SC06",
+      "entry_point": "EtherStore.withdrawFunds(uint256)",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "node_id": 6,
+      "op_index": 1,
+      "line": 29,
+      "R": 0.6,
+      "P": 0.268328,
+      "b": 4,
+      "budget": 34.149,
+      "verdict": "REFUTED",
+      "elapsed": 0.002,
+      "time_to_verdict": 5.814,
+      "reason": null,
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC06",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC08",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "swc": "SC09",
+      "function": "EtherStore.depositFunds()",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC09",
+      "function": "EtherStore.withdrawFunds(uint256)",
+      "verdict": "REFUTED"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "contract": "D:\\hsa-data\\smartbugs-curated\\dataset\\access_control\\FibonacciBalance.sol",
+  "solc_version": "0.4.26",
+  "config": {
+    "mode": "M1",
+    "alpha": 0.4,
+    "beta": 0.4,
+    "gamma": 0.2,
+    "lambda": 0.5,
+    "severity": {
+      "RE": 1.0,
+      "UC": 0.6,
+      "AC": 1.0,
+      "TO": 1.0,
+      "DC": 1.0,
+      "OV": 0.8
+    },
+    "k_unroll": 2,
+    "d_inline": 2,
+    "budget": 300.0,
+    "b_min": 1.0,
+    "ov_strong_fraction": 0.3,
+    "ov_strong_min": 5.0,
+    "ov_strong_max": 10.0,
+    "seed": 20261030
+  },
+  "elapsed": 0.703,
+  "error": null,
+  "targets": [
+    {
+      "class": "DC",
+      "swc": "SC10",
+      "entry_point": "FibonacciBalance.fallback()",
+      "function": "FibonacciBalance.fallback()",
+      "node_id": 1,
+      "op_index": 0,
+      "line": 38,
+      "R": 0.7,
+      "P": 0.7,
+      "b": 0,
+      "budget": 107.879,
+      "verdict": "REFUTED",
+      "elapsed": 0.001,
+      "time_to_verdict": 0.695,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "DC",
+      "swc": "SC10",
+      "entry_point": "FibonacciBalance.withdraw()",
+      "function": "FibonacciBalance.withdraw()",
+      "node_id": 2,
+      "op_index": 0,
+      "line": 31,
+      "R": 0.6,
+      "P": 0.6,
+      "b": 0,
+      "budget": 92.467,
+      "verdict": "REFUTED",
+      "elapsed": 0.0,
+      "time_to_verdict": 0.696,
+      "reason": null,
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "FibonacciLib.setFibonacci(uint256)",
+      "function": "FibonacciLib.fibonacci(uint256)",
+      "node_id": 5,
+      "op_index": 0,
+      "line": 60,
+      "R": 0.56,
+      "P": 0.323316,
+      "b": 2,
+      "budget": 49.827,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.006,
+      "time_to_verdict": 0.702,
+      "reason": "recursion",
+      "counterexample": null
+    },
+    {
+      "class": "OV",
+      "swc": "SC09",
+      "entry_point": "FibonacciLib.setFibonacci(uint256)",
+      "function": "FibonacciLib.fibonacci(uint256)",
+      "node_id": 5,
+      "op_index": 2,
+      "line": 60,
+      "R": 0.56,
+      "P": 0.323316,
+      "b": 2,
+      "budget": 49.827,
+      "verdict": "UNKNOWN",
+      "elapsed": 0.001,
+      "time_to_verdict": 0.703,
+      "reason": "recursion",
+      "counterexample": null
+    }
+  ],
+  "units": [
+    {
+      "swc": "SC09",
+      "function": "FibonacciLib.fibonacci(uint256)",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "swc": "SC10",
+      "function": "FibonacciBalance.fallback()",
+      "verdict": "REFUTED"
+    },
+    {
+      "swc": "SC10",
+      "function": "FibonacciBalance.withdraw()",
+      "verdict": "REFUTED"
+    }
+  ]
+}

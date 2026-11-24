@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.001,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "EtherGet.getTokens(uint256,address)",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    }
+  ]
+}

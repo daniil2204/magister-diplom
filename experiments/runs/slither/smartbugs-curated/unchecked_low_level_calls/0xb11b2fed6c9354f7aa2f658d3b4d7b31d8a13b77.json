@@ -1,0 +1,17 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\smartbugs-curated\\dataset\\unchecked_low_level_calls\\0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+  "solc_version": "0.4.26",
+  "elapsed": 0.002,
+  "timed_out": false,
+  "error": null,
+  "findings": [
+    {
+      "tool": "slither",
+      "swc": "SC06",
+      "function": "Proxy.proxy(address,bytes)",
+      "line": null,
+      "detector": "unchecked-lowlevel"
+    }
+  ]
+}

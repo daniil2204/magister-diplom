@@ -1,0 +1,9 @@
+{
+  "tool": "slither",
+  "path": "D:\\hsa-data\\SolidiFI-benchmark\\buggy_contracts\\Unchecked-Send\\buggy_48.sol",
+  "solc_version": "0.5.17",
+  "elapsed": 0.005,
+  "timed_out": false,
+  "error": null,
+  "findings": []
+}
